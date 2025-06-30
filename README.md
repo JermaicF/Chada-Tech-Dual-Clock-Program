@@ -9,6 +9,6 @@ One enhancement could be separating the UI and logic layers for better scalabili
 
 The most challenging aspects I found was handling the correct rollover behavior for seconds and minutes to be tricky, I resolved this by methodically using modular arithmetic and ensuring each overflow incremented the next time unit. Debugging this logic helped sharpen my understanding of control flow and state management in time-based programs.
 
-This project helped me improve my understanding of C++ object-oriented programming, using control structures and loops
+This project helped me improve my understanding of C++ object-oriented programming, modular design and encapsulation, and Input validation, a few skills that are sure to be useful for future projects.
 
 To make the program maintainable and adaptable, I used a dedicated Clock class to encapsulate clock data and behavior. Functions are clearly named and modular. The code uses consistent formatting and inline comments.
